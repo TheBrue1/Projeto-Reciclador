@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media screen and ( min-width: 768px){
+    i#burguer{
+        display: none;
+    }
+    menu{
+        display: block;
+        background-color: #01261C;
+    }
+    menu > ul > li {
+        padding: 20px;
+        display: inline-block;
+    }
+    menu > ul > li > a{
+        color: white;
+    }
+    menu > ul > li > a:hover {
+        color: green;
+    }
+}
